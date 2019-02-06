@@ -1,0 +1,91 @@
+body{
+    background-color:black;
+    color: grey;
+}
+
+header, nav, footer,main, #content {
+    width: 960px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+header
+{
+    text-shadow: 3px 1px grey;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration:none;
+    color: white;
+}
+
+nav a:hover, #current{
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;
+    text-transform: uppercase;
+}
+
+section, aside{
+    float:left;
+
+} 
+#pic {
+    border-radius: 100px;
+}
+    
+
+aside{
+    text-align: left;
+    padding-left: 100px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+}
+mid{
+    text-align: left;
+    padding-left: 100px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+}
+footer{
+    clear:left;
+    font-size:.9em;
+    text-decoration:none;
+    color:grey;
+}
+
+ul{
+    text-align:left;
+    padding-left: 50px;
+}
+
+
+#content{
+    text-align: left;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size:4em;
+    margin-bottom: 0px;
+    color:white;
+}
+#person{
+    float:left;
+    font-size:.7em;
+}
+
+#picture{
+    float:left;
+}
+
+.words{
+    color:orange;
+}
+#p{
+    float:left;
+}
