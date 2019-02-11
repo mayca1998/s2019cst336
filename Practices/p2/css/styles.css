@@ -1,0 +1,19 @@
+h1 {
+    background-color: MidnightBlue;
+    color: white;
+    padding-left: 50px;
+    font-size: 3em;
+}
+#text{
+    color: gray;
+    padding-left:50px;
+}
+footer, header, h2{
+    padding-left:50px;
+}
+#first{
+    float:left;
+}
+footer{
+    clear:left;
+}
