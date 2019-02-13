@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Guess a Number </title>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        
+        <!--Bootstrap files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!--Custom Styles-->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Guess a Number</h1>
+        </div>
+        
+        <div id="directions" class="resultParas">
+            Guess a number between 1 and 99 in seven attempts!
+            
+            </br></br>
+            <label for="guessField">Enter a guess: </label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+            
+            </br></br>
+            <p id="guesses"></p>
+            <p id="lastResult"></p>
+            <p id="lowOrHi"></p>
+            <p id="w"></p>
+            <p id="l"></p>
+
+            <button id='reset'>Reset</button>
+        </div>
+        
+        <script SRC="js/functions.js"></script>
+        <script>
+            $('#w').css('backgroundColor', 'white');
+            $('#l').css('backgroundColor', 'white');
+            $('#lowOrHi').css('backgroundColor', 'violet');
+            $('#lastResult').css("font-size" , "150%");
+            $("#reset").click(function(){
+                $(this).hide();
+            });
+ 
+      </script>
+
+        
+    </body>
+</html>
