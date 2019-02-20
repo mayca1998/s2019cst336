@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>project2website</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    </head>
+    
+    <body>
+        <head>
+            <div id="welcome" >
+                <img src = "img/banner.png" width="70%" height="10%">
+            </div>
+            <h1>Let's Talk K-Drama</h1>
+        </head>
+        <div id = "text">A small welcome to the world of K-Dramas</div>
+
+        <h2>Lets Get Started!</h2>
+       
+        <form>
+         Enter your name:
+          <input type="text" id="firstname"/><br>
+          
+        </form>
+        <input type="submit" value="Submit" onclick="formdata()"/><br>
+        <div id="yourname"></div>
+        <form>
+          <br><br>
+          How did you hear about K-Dramas
+          <br><br>
+          <textarea name="message" rows="10" cols="30"></textarea>
+        </form>
+        <button class="checker" type="button">Enter</button>       
+        <div id="results"></div>
+        
+        
+        <form>
+            Have you seen any K-dramas
+            <br><br>
+            <select name="option">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            </select>
+          <br><br>
+        </form>
+        <button class="check" type="button">Check</button>       
+        <div id="result"></div>
+        
+        <form>
+            <label for="feedback"> What genres do you like?</label>
+            <div>
+                <input type="radio" id="name1" name="nameOption" value="1">
+                <label for="name1">Romance</label>
+                </div>
+                    <input type="radio" id="name2" name="nameOption" value="2">
+                    <label for="name2">Comedy</label>
+                <div>
+                    <input type="radio" id="name3" name="nameOption" value="3">
+                <label for="name3">tragedy</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="name4" name="nameOption" value="4">
+                    <label for="name4">Action</label>
+                </div>
+        </form>
+        <button class="c" type="button">Enter</button>
+        <div id="res"></div>
+        
+
+        <form>
+            What dramas would you watch?
+            <br><br>
+            <input type="checkbox" name="drama1" value="ScarletHeart"> <img id="myImg" src="img/sh.png" alt="scarlet heart" width="304" height="228"><br>Scarlet Heart<br>
+            <input type="checkbox" name="drama2" value="SheWasPretty"><img id="myImg" src="img/swp.png" alt="she was pretty" width="304" height="228"><br>She Was Pretty<br>
+            <input type="checkbox" name="drama3" value="StrongWoman" > <img id="myImg" src="img/sw.png" alt="strong woman" width="304" height="228"><br>Strong Woman<br>
+            <input type="checkbox" name="drama4" value="Healer" ><img id="myImg" src="img/healer.png" alt="Healer" width="304" height="228"><br>Healer <br>
+
+          
+        </form>
+        <button class="checkbox" type="button">Enter</button>
+        <div id="msg"></div>
+    
+        <form>
+            If you haven't seen these Drama's will you watch one soon?
+            <br><br>
+            <select name="option">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            </select>
+          <br><br>
+        </form>
+        <button class="ch" type="button">Check</button>   
+        <div id="endingmsg"></div>
+
+        <script SRC="js/functions.js"></script>
+        
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript">
+           
+            $("button.checker").on("click", function(){
+                //Dont need e.preventDefault() cuz we have <button type="button">
+                $("#results").html("Welcome, hope you discover something new about K-drams").css("color", "green");
+             });
+             
+             $("button.check").on("click", function(){
+                $("#result").html("Greate Lets get on to the Genres!").css("color", "green");
+             });
+            $("button.c").on("click", function(){
+                var selectedRadio = $("input[name='nameOption']:checked");
+                var selectedName = selectedRadio.val();
+                //var selectorRadioId = selectedRadio.attr("id");
+                //var selectedLabelHtml = $("label[for='" + selectorRadioId + "']").html();
+                
+                if(selectedName === "1") {
+                    $("#res").html("Romance dramas are one of the most popular Dramas. Get those tissues ready!").css("color", "green");
+                }else if(selectedName === "2"){
+                    $("#res").html("Comedy dramas are also in style, RomCom dramas will sure make you laugh untill you cry!").css("color", "green");
+                }else if(selectedName === "3"){
+                    $("#res").html("Tragedy dramas are great when you want to just cry and hate life! Enjoy!").css("color", "green");
+                }else{
+                    $("#res").html("Action dramas are on of the best, when you want dramatic story lines and great lead actors!").css("color", "green");
+                }
+                console.log("selected: ", selectedName);
+                
+             });
+            $("button.ch").on("click", function(){
+                //Dont need e.preventDefault() cuz we have <button type="button">
+                $("#endingmsg").html("Glad to be of any help, Bye!").css("color", "green");
+             });
+             $("button.checkbox").on("click", function() {
+                 $("#msg").html("Honestly doesn't matter what you choose, each of them are great!.").css("color","green");
+             })
+             
+             
+        
+        </script>
+    </body>
+</html>
