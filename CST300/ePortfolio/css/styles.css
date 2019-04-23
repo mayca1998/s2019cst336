@@ -1,0 +1,123 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+header, nav, footer{
+    width: 960px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+section{
+    text-align: left;
+    padding-left: 100px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+    
+}
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration:none;
+    color: white;
+}
+
+nav a:hover, #current{
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;
+}
+
+section, aside{
+    float:left;
+    text-align: left;
+    padding-left: 10px;
+    padding-top:  50px;
+    width:200px;
+} 
+#me {
+    float: left;
+    
+}
+    
+
+aside{
+    font-size: 1.3em;
+}
+
+footer{
+    clear:left;
+    font-size:.9em;
+    text-decoration:none;
+    color:white;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size:1.3em;
+}
+td strong{
+    color:orange;
+}
+mid {
+    text-align: left;
+    padding-left: 100px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+}
+#table-header
+{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+    font-size:1em;
+    color: white;
+    text-align: center;
+}
+
+
+ul{
+    text-align:left;
+    padding-left: 50px;
+    color:white;
+}
+
+.projects{
+    color:yellow;
+}
+#content{
+    text-align: left;
+    padding-right: 500px;
+    
+}
+#link{
+    text-align:center;
+    color:white;
+    font-size:1.5em;
+   
+}
+#con{
+    text-align:center;
+}
+#titleP{
+    color:white;
+    font-size:1.4em;
+    text-decoration: underline;
+    
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size:4em;
+    margin-bottom: 0px;
+    color:white;
+}
