@@ -166,3 +166,118 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(4): getDatabaseConnection('lab8')
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/dbConnection.php on line 9
+[28-Apr-2019 06:28:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:28:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:30:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:30:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:30:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:30:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lab8.liked' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 19
+[28-Apr-2019 06:33:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:33:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:36:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[28-Apr-2019 06:36:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
