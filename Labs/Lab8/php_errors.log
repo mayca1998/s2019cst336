@@ -291,3 +291,79 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:05:16 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab8/dbConnection.php on line 18
+[29-Apr-2019 04:05:16 UTC] PHP Stack trace:
+[29-Apr-2019 04:05:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:0
+[29-Apr-2019 04:05:16 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:4
+[29-Apr-2019 04:05:17 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab8/dbConnection.php on line 18
+[29-Apr-2019 04:05:17 UTC] PHP Stack trace:
+[29-Apr-2019 04:05:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:0
+[29-Apr-2019 04:05:17 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:4
+[29-Apr-2019 04:05:18 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab8/dbConnection.php on line 18
+[29-Apr-2019 04:05:18 UTC] PHP Stack trace:
+[29-Apr-2019 04:05:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:0
+[29-Apr-2019 04:05:18 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:4
+[29-Apr-2019 04:05:20 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab8/dbConnection.php on line 18
+[29-Apr-2019 04:05:20 UTC] PHP Stack trace:
+[29-Apr-2019 04:05:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:0
+[29-Apr-2019 04:05:20 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:4
+[29-Apr-2019 04:05:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:05:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:05:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:05:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:06:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
