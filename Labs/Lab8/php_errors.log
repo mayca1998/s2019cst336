@@ -367,3 +367,83 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:10:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:11:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:11:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 04:16:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
