@@ -281,3 +281,13 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 03:52:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
+[29-Apr-2019 03:52:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php(20): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab8/api/api.php on line 20
