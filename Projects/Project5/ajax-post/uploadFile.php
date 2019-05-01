@@ -1,7 +1,6 @@
 <?php
     include './dbConnection.php';
-    mysql_connect($dbHost, $dbUsername, $dbPassword);
-    mysql_select_db($dbName);
+    
     
     if(isset($_POST['submit']))
     {
@@ -17,29 +16,29 @@
                     $imageName = mysql_real_escape_string($_FILES["image"]["name"]);
                     $imageData = mysql_real_escape_string(file_get_contents($_FILES["image"]["tmp_name"]));
                     $imageType = mysql_real_escape_string($_FILES['image']['type']);
-                    $emailadd = ($_POST['email_address']);
-                    $cap = ($_POST['caption']);
+                    $email = ($_POST['email_address']);
+                    $caption = ($_POST['caption']);
                     $timestamp = date("Y-m-d H:i:s");
                     
                     if(substr($imageType,0,5) == "image"){
-                        mysql_query("INSERT INTO uploads(email_address, caption, media, timestamp) VALUES('$emailadd','$cap','$imageData','$timestamp')");
-                        $statusMsg ="Images Uploaded Sucessfully!";
+                        mysql_query("INSERT INTO uploads(email_address, caption, media, timestamp) VALUES('$email','$caption','$imageData','$timestamp')");
+                        $msg ="Images Uploaded Sucessfully!";
                     }
                     else{
-                        $statusMsg ="only images are allowed";
+                        $msg ="only images are allowed";
                     }
                 }
                 else{
-                   $statusMsg = "File Size to big";
+                   $msg = "File Size to big";
                 }
             }
             else{
-                $statusMsg = "Caption is Empty";
+                $msg = "Caption is Empty";
             }
         }
         else{
-        $statusMsg = "Email Address is Empty";
+        $msg = "Email Address is Empty";
         }
     }
-    echo $statusMsg
+    echo $msg
 ?>
