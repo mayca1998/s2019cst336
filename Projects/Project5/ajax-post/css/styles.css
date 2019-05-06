@@ -22,5 +22,13 @@ container{
 h1, container{
     font-style: oblique;
 }
+input {
+    color: black;
+    
+}
+#text-box{
+    border-color: red;
+    background-color: white;
+}
 
 
