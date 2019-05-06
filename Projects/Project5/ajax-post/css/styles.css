@@ -3,7 +3,24 @@
     width: 500px;
 }
 body{
-    background-color: grey;
+    background-color: gray;
+    color: white;
+}
+h1{
+    color: white;
+    padding-left: 100px;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+container{
+    color:white;
+    padding-left: 100px;
+    font-size:1.8em;
+    
+}
+h1, container{
+    font-style: oblique;
 }
 
 

@@ -3,8 +3,8 @@
     
     $myArray = array();
     
-    $con = mysql_connect($dbHost,$dbUsername,$dbPassword);
-    $dbs = mysql_select_db($dbName, $con);
+    $con = mysql_connect($host,$dbname,$username,$password);
+    $dbs = mysql_select_db($dbname, $con);
   
     $result = mysql_query("SELECT * FROM uploads");          
     

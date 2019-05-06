@@ -13,9 +13,9 @@
             if(!empty($_POST['caption']))
             {
                 if($fileSize < 10000){
-                    $imageName = mysql_real_escape_string($_FILES["image"]["name"]);
-                    $imageData = mysql_real_escape_string(file_get_contents($_FILES["image"]["tmp_name"]));
-                    $imageType = mysql_real_escape_string($_FILES['image']['type']);
+                    $imageName = mysql_real_escape_string($_FILES["name"]["name"]);
+                    $imageData = mysql_real_escape_string(file_get_contents($_FILES["name"]["tmp_name"]));
+                    $imageType = mysql_real_escape_string($_FILES['name']['type']);
                     $email = ($_POST['email_address']);
                     $caption = ($_POST['caption']);
                     $timestamp = date("Y-m-d H:i:s");
