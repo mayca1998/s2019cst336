@@ -23,7 +23,7 @@
 <body>
     <div id="content" class="mx-auto text-center" style="width: 80%;">
        
-
+        <div id="banner"></div>
         <div class="container">
             
             <form>
@@ -48,6 +48,28 @@
                     </tr>
                     
                     <?php
+                    
+                    if(isset($_SESSION["username"]))
+                    {
+            
+                        echo '<div>
+                        <div class="up-frm">
+                           
+                            <form action="" method="post" enctype="multipart/form-data">
+                                Select Image Files to Upload:<input id="selectButton" type="file" name="image" multiple >
+                               
+                                
+                                <br>
+                               
+                                
+                                <button id="uploadButton" type="button" class="btn btn-primary btn-xs" name="submit">Upload File(s)</button>
+                                </div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    0%
+                                </div>
+                            </form>
+                        </div>';
+                    }
                     if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
                         $db = mysqli_connect("us-cdbr-iron-east-02.cleardb.net","b46d43e6e83caf","28f838a4","heroku_698053562a31a38"); 
                         
@@ -89,6 +111,8 @@
                     }
                     
                     echo "</div>";
+                    
+                    
                 ?>  
                 
                
