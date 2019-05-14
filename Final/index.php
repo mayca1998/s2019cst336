@@ -49,7 +49,7 @@
                     
                     <?php
                     if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
-                        $db = mysqli_connect("us-cdbr-iron-east-02.cleardb.net","b46d43e6e83caf","28f838a4","Scheduler"); 
+                        $db = mysqli_connect("us-cdbr-iron-east-02.cleardb.net","b46d43e6e83caf","28f838a4","heroku_698053562a31a38"); 
                         
                     }
                     else
